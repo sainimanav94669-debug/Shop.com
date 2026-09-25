@@ -60,18 +60,18 @@ const HappyCustomers = () => {
             <article
               key={customer.id}
               className="
-                min-h-[122px]
+                min-h-30.5
                 rounded-[10px]
                 border
                 border-black/10
                 bg-white
                 p-4
-                sm:min-h-[135px]
+                sm:min-h-33.75
                 sm:p-5
               "
             >
               {/* Stars */}
-              <div className="flex gap-[2px] text-[14px] leading-none text-[#FFC633] sm:text-[15px]">
+              <div className="flex gap-0.5 text-[14px] leading-none text-[#FFC633] sm:text-[15px]">
                 {Array.from({ length: 5 }).map((_, index) => (
                   <span key={index}>★</span>
                 ))}

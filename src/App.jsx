@@ -8,6 +8,7 @@ import TopSelling from './components/home/TopSelling'
 import DressStyle from './components/home/DressStyle'
 import HappyCustomers from './components/home/HappyCustomers'
 import Footer from './components/common/Footer'
+import Subscribe from './components/home/Subscribe'
 
 function App() { 
 
@@ -20,6 +21,7 @@ function App() {
     <TopSelling/>
     <DressStyle/>
     <HappyCustomers/>
+    <Subscribe />
     <Footer/>
      </>
   )
