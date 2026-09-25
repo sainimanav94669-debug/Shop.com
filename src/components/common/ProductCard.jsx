@@ -20,7 +20,7 @@ const ProductCard = ({
           src={image}
           alt={name}
           className="
-            h-full lg:min-h-[298px]
+            h-full lg:min-h-74.5
             w-full
             object-contain
             p-2
