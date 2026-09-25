@@ -71,7 +71,7 @@ const HappyCustomers = () => {
               "
             >
               {/* Stars */}
-              <div className=" flex gap-[2px]  sm:text-[22px] leading-none text-[#FFC633] text-[19px]">
+              <div className=" flex gap-0.5  sm:text-[22px] leading-none text-[#FFC633] text-[19px]">
                 {Array.from({ length: 5 }).map((_, index) => (
                   <span key={index}>★</span>
                 ))}

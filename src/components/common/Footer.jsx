@@ -100,7 +100,7 @@ const PaymentLogo = ({ children }) => {
       className="
         flex
         h-5
-        min-w-[30px]
+        min-w-7.5
         items-center
         justify-center
         rounded-[4px]
@@ -132,7 +132,7 @@ const Footer = () => {
         className="
           mx-auto
           w-full
-          max-w-[1200px]
+          max-w-300
           px-3
           pt-5
           sm:px-6
@@ -186,7 +186,7 @@ const Footer = () => {
               flex-col
               gap-2
               md:ml-auto
-              md:max-w-[360px]
+              md:max-w-90
             "
           >
             <input
@@ -237,7 +237,7 @@ const Footer = () => {
           mx-auto
           grid
           w-full
-          max-w-[1200px]
+          max-w-300
           grid-cols-2
           gap-x-6
           gap-y-7
@@ -282,7 +282,7 @@ const Footer = () => {
           <Paragraph
             className="
               mt-2
-              max-w-[270px]
+              max-w-67.5
               text-[9px]
               leading-[145%]
               sm:text-[10px]
@@ -347,7 +347,7 @@ const Footer = () => {
           mx-auto
           flex
           w-full
-          max-w-[1200px]
+          max-w-300
           flex-col
           gap-4
           border-t
