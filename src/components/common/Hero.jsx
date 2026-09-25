@@ -20,7 +20,7 @@ const Hero = () => {
             justify-center
             px-4
             pt-10
-            pb-10
+            pb-0
             sm:px-8
             md:px-12
             xl:w-[59%]
@@ -39,8 +39,8 @@ const Hero = () => {
               font-integral
               text-[36px]
               font-bold
-              uppercase
-              leading-[0.95]
+              uppercase leading-[86%]
+              sm:leading-[90%]
               tracking-[-1.5px]
               text-black
               sm:text-[52px]
@@ -119,7 +119,7 @@ const Hero = () => {
                 className=" Satoshi
                   -mt-1
                   text-[12px] 
-                  text-black/50
+                  text-black opacity-60
                   xl:text-base leading-5.5
                 "
               >
@@ -150,11 +150,11 @@ const Hero = () => {
               </h2>
 
               <p
-                className="
+                className=" opacity-60
                  Satoshi
                   -mt-1
                   text-[12px] 
-                  text-black/50
+                  text-black
                   xl:text-base leading-5.5
                 "
               >
@@ -180,9 +180,9 @@ const Hero = () => {
 
               <p
                 className=" Satoshi
-                  -mt-1
+                  -mt-1 opacity-60
                   text-[12px] 
-                  text-black/50
+                  text-black
                   xl:text-base leading-5.5
                 "
               >
@@ -261,14 +261,14 @@ const Hero = () => {
 
           {/* Hero Image */}
           <img
-            src="/public/images/webp/hero.webp"
+            src="/images/webp/hero.webp"
             alt="Fashion models wearing stylish clothes"
             className="
               block h-auto
               lg:h-155 min-h-112
-              w-full mt-11.5
+              w-full sm:mt-11.5
               max-w-none
-              object-cover
+              object-cover  max-width-[390px]:max-h-112 pt-12
               object-center
             "
           />

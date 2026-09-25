@@ -24,7 +24,7 @@ const ProductSection = ({
         "
       >
         {/* Heading */}
-        <Heading>{title}</Heading>
+        <Heading className="leading-[120%]">{title}</Heading>
 
         {/* Product Grid */}
         <div
@@ -55,7 +55,7 @@ const ProductSection = ({
 
         {/* VIEW ALL BUTTON */}
         <div className="mt-7 flex justify-center sm:mt-9">
-          <Button className="Satoshi bg-white text-black! border-[#E6E6E6] font-medium border hover:text-white! text-base py-3.75 px-20 leading-[128%] w-full sm:max-w-[218px] hover:bg-black cursor-pointer transition-all duration-300">
+          <Button className="Satoshi bg-white text-black! border-[#E6E6E6] font-medium border hover:text-white! text-base py-3.75 px-20 leading-[128%]! w-full sm:max-w-[218px] hover:bg-black! cursor-pointer transition-all duration-300">
             View All
           </Button>
         </div>

@@ -10,19 +10,19 @@ const dressStyles = [
   {
     id: 2,
     name: "Formal",
-    image: "/images/webp/formal.png",
+    image: "/images/webp/formal2.webp",
     className: "lg:col-span-5",
   },
   {
     id: 3,
     name: "Party",
-    image: "/images/webp/party.png",
+    image: "/images/webp/party3.webp",
     className: "lg:col-span-5",
   },
   {
     id: 4,
     name: "Gym",
-    image: "/images/webp/gym.png",
+    image: "/images/webp/gym2.webp",
     className: "lg:col-span-3",
   },
 ];
@@ -47,14 +47,13 @@ const DressStyle = () => {
         className="
           mx-auto
           w-full
-          max-w-310
-          rounded-[20px]
+          max-w-310 rounded-[20px]
+          md:rounded-[40px]
           bg-[#F0F0F0]
           px-6
           pt-10 pb-6.75
           md:px-10
-          md:py-12
-          lg:rounded-3xl
+          md:py-12 
           lg:px-12
           lg:py-14
           xl:px-16
@@ -90,7 +89,7 @@ const DressStyle = () => {
               className={`
                 group
                 overflow-hidden
-                rounded-xl
+                rounded-[20px]
                 bg-white
                 ${style.className}
               `}
@@ -113,30 +112,29 @@ const DressStyle = () => {
                     group-hover:scale-[1.02]
                     sm:aspect-407/289
                     lg:aspect-auto max-h-47.5 md:max-h-72.25
-                    lg:h-47.5
-                    xl:h-72.25
+                     
+                    md:h-72.25
                   "
                 />
 
                 {/* Title */}
                 <h3
-                  className="
+                  className="Satoshi
                     z-10
                     col-start-1
                     row-start-1
                     self-start
-                    px-5
+                    pl-6
                     pt-4
-                    text-[18px]
-                    font-medium
-                    leading-none
+                    text-[24px]
+                    font-bold
+                    leading-[137%]
                     text-black
-                    sm:px-5
-                    sm:pt-5
-                    sm:text-[20px]
-                    lg:px-5
-                    lg:pt-5
-                    lg:text-[20px]
+                    
+                    sm:text-[30px]
+                    lg:pl-6.25
+                    lg:pt-9
+                    lg:text-[36px]
                   "
                 >
                   {style.name}

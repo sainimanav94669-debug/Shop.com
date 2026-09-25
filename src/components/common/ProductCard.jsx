@@ -13,11 +13,9 @@ const ProductCard = ({
         className="
           aspect-square
           w-full
-          overflow-hidden
-          rounded-[10px]
-          bg-[#F0F0F0]
-        "
-      >
+          overflow-hidden rounded-[13px]
+          sm:rounded-[20px]
+          bg-[#F0F0F0]">
         <img
           src={image}
           alt={name}
@@ -64,8 +62,8 @@ const ProductCard = ({
            
         </div>
 
-        <span className="text-xs text-black/50 sm:text-sm leading-[136%]">
-          {rating}/5
+        <span className="text-xs text-black sm:text-sm leading-[136%]">
+          {rating} <span className="text-black opacity-60">/5</span>
         </span>
       </div>
 
@@ -76,7 +74,7 @@ const ProductCard = ({
         </span>
 
         {oldPrice && (
-          <span className="text-xl sm:text-2xl! leading-[134%] text-black/40 line-through">
+          <span className="text-xl sm:text-2xl! leading-[134%] text-black opacity-40 line-through">
             ${oldPrice}
           </span>
         )}
