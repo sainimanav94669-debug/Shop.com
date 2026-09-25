@@ -18,10 +18,10 @@ const Button = ({
         py-3.5
         text-base
         font-medium
-        text-white
+        text-white leading-[140%]
         transition
-        duration-200
-        hover:bg-black/80
+        duration-300 cursor-pointer
+        hover:bg-white hover:text-black border border-black
         active:scale-95
         ${className}
       `}

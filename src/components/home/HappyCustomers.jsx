@@ -29,7 +29,7 @@ const HappyCustomers = () => {
         className="
           mx-auto
           w-full
-          px-4
+          px-4 sm:px-0 pb-12.5 sm:pb-15 lg:pb-20
           max-w-310 
         "
       >
@@ -52,7 +52,7 @@ const HappyCustomers = () => {
             gap-3
             sm:mt-10
             sm:grid-cols-2
-            md:gap-4
+            md:gap-5
             lg:grid-cols-3
           "
         >
@@ -60,41 +60,42 @@ const HappyCustomers = () => {
             <article
               key={customer.id}
               className="
-                min-h-[122px]
-                rounded-[10px]
+                min-h-30.5
+                rounded-[20px]
                 border
-                border-black/10
+                border-[#E6E6E6]
                 bg-white
-                p-4
-                sm:min-h-[135px]
-                sm:p-5
+                p-6
+                sm:min-h-33.75
+                sm:py-7 sm:px-8
               "
             >
               {/* Stars */}
-              <div className="flex gap-[2px] text-[14px] leading-none text-[#FFC633] sm:text-[15px]">
+              <div className=" flex gap-0.5  sm:text-[22px] leading-none text-[#FFC633] text-[19px]">
                 {Array.from({ length: 5 }).map((_, index) => (
                   <span key={index}>★</span>
                 ))}
               </div>
 
               {/* Customer name */}
-              <div className="mt-2 flex items-center gap-1">
-                <h3 className="text-[11px] font-bold leading-none text-black sm:text-xs">
+              <div className="mt-3 sm:mt-3.75 flex items-center gap-1">
+                <h3 className="Satoshi text-base font-bold leading-5 sm:leading-6 text-black sm:text-xl">
                   {customer.name}
                 </h3>
 
-                <span className="flex h-3 w-3 items-center justify-center rounded-full bg-[#00B67A] text-[7px] font-bold text-white">
+                <span className="flex  h-4 w-4 sm:max-h-6 sm:max-w-6 items-center justify-center m-0.5 rounded-full bg-[#00B67A] text-[10px] font-bold text-white">
                   ✓
                 </span>
               </div>
 
               {/* Review using common Paragraph */}
               <Paragraph
-                className="
-                  mt-2
+                className="Satoshi
+                  mt-2 sm:mt-3
                   text-[14px]
-                  leading-[140%]
-                  sm:text-[14px]
+                  sm:leading-[138%]!
+                  leading-[143%]!
+                  sm:text-[14px] 
                   md:text-[16px]
                 "
               >
